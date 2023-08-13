@@ -1,0 +1,52 @@
+/**
+ * @name OFF The Batter
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+
+:root {
+  --background-image: url('https://images3.alphacoders.com/754/754594.png');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: url('https://b.thumbs.redditmedia.com/SPWJi2w_BoV32Xn-jvqadn_1cr0tz2aXqn9uwhLxFlg.png');
+  --popout-image-blur: 0px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: url('https://b.thumbs.redditmedia.com/SPWJi2w_BoV32Xn-jvqadn_1cr0tz2aXqn9uwhLxFlg.png');
+  --overlay-image-blur: 5px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAyCAMAAAAdmLmfAAADAFBMVEXsCQn///8AAAC+urtua2ygnp+Fg4QpJikfHh8vLi/W1Nb6+frt7O3i4eLd3N3Pzs/Kycrr5u/BvsSFg4f8+/308/Xw7/HPztCqqausqq/S0NVBQEOhn6VlZGdwb3Lt7O/BwMW8u8DU09iVlJpubXTb2uQBAQYLCw0ICAkRERMKCgsWFhhwcHVNTVCWlpu/v8WwsLWfn6PW1tu+vsK1tbmnp6uNjZBZWVvx8fTR0dTAwMM/P0D8/P709Pbf3+HT09XLy81gYGH+/v/8/P37+/z5+fr29vfy8vPi4uPd3d7a2tu2treqqqujo6QAAQwAAQptbnc7PEOEhY1vcXy0tbvCw8kICQ6SlJ53eH10dXqAgYamp6zNztPY2d7W19wNDxhTVV6Rkpbg4eUIChENDxaIipGrrbQAAQQHChKnqrM5Oj2HiY+PkZdgYWSNjpGsrbDm5+oDCBQYGh9iZGmKj5oBAwcBAgQDBQkEBgoCAwUEBQcQEhYiJSsODxE3OT2ZnKLAw8mBg4fExsrCxMjx8vQIDBNydn0ABQ0BCBQCBQoHDhkQFR3T1tsbISpQVl+Aho9manChpatoam3Bw8a4ur3g4uXf4eTU1tnR09YCCxcXHCOlqKyeoaX09/uYnKGnq7C+wsdXXmYAAQIBAgMHCQsFBgccHiBGSk6SlZirrrGTlZfGyMrt7/H7/P1OU1fEyc1FSErKzc/e4eMDCAu3u734+vvj5eb2+frx9PUUGBm/wcHx8vLl5uawsbH7/Pvv8O/p6unR0tB9fXyMjIuHh4apqKVvbmzW1dPQz83s6uedm5n5+Pfy8fDLyMY1MzK5t7app6ampKMYFxc8OzvDwcH+/f349/fu7e3g39/e3d3W1dXV1NTNzMzMy8vJyMjAv7+/vr6GhYX+/v77+/v5+fn19fXx8fHv7+/r6+vp6enl5eXf39+9vb2Tk5NycnICAgIBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUOClHAAACh0lEQVR4nL3VVXsTQRQG4J4Pb4JDcYfiTikUgoUGKNLi7hKgQNGWFHfX4k6Ku7s7FIfgmqSUCpCfwEySpc3uZMkFD+cm+8y8GTl7ZtbP778GWPgIe0d2Ku8DB9poLxqIQlPbBatjdKX0aFpbxaIOeUSUV4tBJItnXiyOyiWRmGKYUlImkUV+jYDahfSUQBJdFlgcEtJrSoqeQinaGFY6Oyx2H+hE1vwyhApovs74G+1LhgeVRjb+1AhTNqhSjLHSk13nMWEPYrBNne4nst3hpReNnXPVaRHWan0BOAKXn1VfK/xZq38ONuqmrWRN/BG8d3ScmKIXUYsP2fkCdo/KSyXYb/iyMDHdQaR5DCyZDgypkOWX2REbv/jIKyGdwxpvV5k6s9RzrNJmmzzefDLauLA0a7yqoAf5AEFjiT5voafmmGkIHG4K7yzcVV2eAPeeH7GEwTTPtDGC6LWSRmVIjyUzYF7kmNQhkhJFJSi5nE0spG/OU2EcEECi8w1XReUqVrUikojSbt44MJu9P+EZKOukt9hog9E22T3FJeEpdK2gev9u8bHz+fQoV7xwe/H94qI9xi0wYtaaE13q1fd+a8GZqtCBHStjxYXjtfIV9X4JQTrab1cDm/fViFChBf/k9VsZPvlQ7/dVA5JFHpmFtHro5DTMkyKF6D5vQhBZDnvSFBmVKhLJZA/R6xtmoG+U1AL3A85YsS6dfpTRc1+cS8V61ncd9A7fJSm/AzHiXtaSbGPNeGcC0PIu4twJVrwr9KGH7wsZ3CPVZP+qlsqfbK0FF9DSjLu2aa+4HtKE5bf9tDyjSUDCT6HtvlbvIfkqkfuY0Lqin04foGsllZ7qhxPw4cP6L+M3bv6W0EyeWHgAAAAASUVORK5CYII=');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.46;
+  --left-brightness: 0.46;
+  --middle-brightness: 0.4;
+  --right-brightness: 0;
+  --overlay-brightness: 0.7;
+  --gradient-primary: 255,0,0;
+  --gradient-secondary: 116,0,0;
+  --link-colour: #FF6B00;
+  --scrollbar-colour: rgb(0,0,0,0.3);
+  --gradient-direction: 180deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: ProFontWindows;
+  --window-padding: 5px;
+  --window-roundness: 8px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
+
+
